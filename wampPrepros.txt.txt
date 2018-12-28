@@ -1,0 +1,37 @@
+https://www.youtube.com/watch?v=CwuQxkln_JA
+
+
+This assumes that you have already installed WAMP and PrePros 
+
+Step 1: Go to the folder where wamp is and search for the www directory. 
+usually, if you have not changed the directory location upon install, 
+it will be here... c:/wamp/www/ 
+
+Step 2: In this directory, create a folder, or add a folder of you choice If you add a folder,
+make sure the file that you would like to launch is named index.php 
+
+Step 3: If there is no file in the folder, create an index.php file. 
+For tutorial purposes, write the code for Hello World in the video 
+
+Step 4: Left click on the upward carrot ^ on the taskbar. 
+
+Step 5: Left click on the wamp icon 
+
+Step 6 Click on Apache, Alias directories, 
++ Add an alias 
+
+Step 7: Follow directions on the command screen 
+
+Step 8: Open Prepros and drag in file. 
+
+Step 9: Click More Options, Project Options 
+
+Step 10: Click the "Live Preview Custom Server" box 
+
+Step 11: Type in the server url into the box that pops up. This url was created in Step 7.
+For example, for the example above, it is http://localhost/testone 
+
+Step 12: Click "Save Options" 
+
+Step 13: Click on "Live Preview", Open Live Preview Hello World should appear in the browser. 
+Now, whenever you edit the page and save it, the browser will automatically be updated.

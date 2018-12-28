@@ -1,0 +1,135 @@
+p {
+    text-align: left;
+    margin: 16px 0;
+}
+/*Primeira Letra de Todos os Paragrafos em Negrito*/
+p:first-letter {
+    font-weight: bold; 
+}
+/*Primeira Linha De Todos os Paragros em Small Caps*/
+p:first-line {
+    font-variant: small-caps;
+}
+
+#youtube, #vivaz{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+    color: #333333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;/*Navegador verifica quais fontes disponiveis da esquerda pra direita*/
+}
+
+h1 {
+    padding: 10px;
+    margin: 18.72px 0;
+    background-image: url(../img/sobre-background.jpg);
+}
+/*Remover Identacao Do Primeiro Paragrafo Apos o Titulo*/
+h1 + p {
+    text-indent: 0;
+}
+h2 {
+    margin-top: 30px;
+    margin-bottom: 19.92px;
+    border-bottom: 2px solid #333333;
+}
+
+figure {
+    padding: 15px;
+    margin: 30px;
+    background-color: #F2EDED;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+#centro-distribuicao {
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+#familia-pelho {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+/*-----------------STYLING FOOTER---------------*/
+footer {
+    background-image: url(../img/fundo-rodape.png);
+}
+
+.social a {
+    /*Tamanho da Image*/
+    height: 32px;
+    width: 32px;
+    /*Image Replacement*/
+    display: block;
+    text-indent: -9999px;
+}
+/*Seletor de Atributo Do CSS*/
+/*Busca por <a>(Ancora) que (href) contem "parametro"*/
+.social a[href*="facebook.com"] {
+    background-image: url(../img/facebook.png);
+}
+.social a[href*="twitter.com"] {
+    background-image: url(../img/twitter.png);
+}
+.social a[href*="plus.google.com"] {
+    background-image: url(../img/googleplus.png);
+}
+
+footer {
+    /*Paines de Destaque Flutuando, Portanto Sairam Do Fluxo de Renderizacao*/
+    clear: both; /*Clear nos Dois Lados Bloqueia Elementos Flutuantes Em Ambos os Lados - Voltando o Footer para o Fluxo de Renderizacao*/
+}
+
+footer .container {/*Classe "container" Dentro da Classe "footer"*/
+    position: relative; /*Aceita Coordenadas - Obedecidas em Relacao A Posicao Original do Elemento*/
+}
+
+.social {
+    position: absolute; /* Referencia do elemento Pai cujo Pai tenha posicao diferente de Static */
+    /*Portanto Posicao Absoluta em Relacao ao Container ao Div Pai*/
+    margin: 0;
+    top: 12px;
+    right: 12px;
+}
+/*Flutuar Icones Das Redes Sociais Lado a Lado*/
+.social li {
+    float: left;
+    margin-left: 25px;
+}
+
+#copyright {
+    color: white;
+}
+@media (max-width: 320px) {
+    body  {
+        width: 96%;
+    }
+    p {
+        font-size: 125%;
+    }
+    .titulo {
+        text-align: center;
+    }
+    figure {
+        max-width: 50%;
+        text-align: center;
+        margin: auto;
+    }
+    #centro-distribuicao,
+    #pelho-family {
+        max-width: 100%;
+    }
+}

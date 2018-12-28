@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mirror Fashion</title>
+        <meta charset="UTF-8">
+        <!--Declaracao MEta Tag com Viewport para Mobile-->
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="assets/css/reset.css"><!-- Arquivo CSS-->
+        <!--From Eric Meyer 4 Compatibility with older browsers-->
+        <link rel="stylesheet" href="assets/css/estilos.css">  
+        <!-- Importe Mobile.CSS Depois De Todos Os outros arquivos, usar media querie p/ 320px-->
+        <link rel="stylesheet" href="assets/css/mobile.css" media="(max-width: 939px)">
+    </head>
+    <body>
+    <!---------------------------------------------------------------------HEADER---------------------------------------------------------------->
+        <header class="container">
+            <h1><img src="img/logo.png" alt="Mirror Fashion"></h1>
+                <p class="sacola">
+                    Nenhum item na sacola de compras
+                </p>
+                <nav class="menu-opcoes"> <!-- Horizontal Pelo CSS-->
+                    <ul>
+                        <!--Links Ancoras-->
+                        <li><a href="#">Sua Conta</a></li>
+                        <!--# Trecho da pagina-->
+                        <li><a href="#">Lista de Desejos</a></li>
+                        <li><a href="#">Cartão Fidelidade</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <!--Pagina HTML interna-->
+                        <li><a href="#">Ajuda</a></li>
+                    </ul>
+                </nav>
+        </header>
+    <!---------------------------------------------------------------------MENUS---------------------------------------------------------------->
+        <div class="container destaque">
+            <section class="busca">
+                <h2>Busca</h2><!--Começo da Busca-->
+                <form><!-- Captura De Dados do User-->
+                    <input type="search"><!--Captura Tipo Search-->
+                    <input type="image" src="img/busca.png"><!-- Submissão Dos Dados Tipo IMG-->
+                </form>
+            </section><!--Fim da Busca-->
+            <!--Começo Menu Departamenos-->
+            <section class="menu-departamentos">
+                <h2>Departamentos</h2>
+                <nav> <!-- Links Navegacao Apropriados-->
+                    <ul><!--Bookmarks locais na Pagina-->
+                        <li><a href="#">Blusas e Camisas</a>
+                            <ul>
+                                <li><a href="#">Manga Curta</a></li>
+                                <li><a href="#">Manga Comprida</a></li>
+                                <li><a href="#">Manga Social</a></li>
+                                <li><a href="#">Manga Casual</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Calças</a></li>
+                        <li><a href="#">Saias</a></li>
+                        <li><a href="#">Vestidos</a></li>
+                        <li><a href="#">Sapatos</a></li>
+                        <li><a href="#">Bolsas e Carteiras</a></li>
+                        <li><a href="#">Acessórios</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <!-- fim .menu-departamentos-->
+            <img src="img/destaque-home.png" alt="Promoção: Big City Night">
+        </div><!-- fim .menu-departamentos-->
+        <!---------------------------------------------------------------------PRODUTOS----------------------------------------------------------- -->
+        <div class="container paineis">
+            <!-- Os Paineis de Novidades Entram Aqui-->
+            <!-- Utilizar Propriedade Inline Block para Separar Itens na Vertical-->
+            <section class="painel novidades">
+                <h2>Novidades</h2>
+                <ol><!--Lista Ordenada-->
+                    <!--Primeiro Produto-->
+                    <li>
+                        <a href="produto.html">
+                            <figure>
+                                <img src="img/produtos/miniatura1.png">
+                                <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <!--Segundo Produto-->
+                    <li>
+                        <a href="produto.html">
+                            <figure>
+                                <img src="img/produtos/miniatura2.png">
+                                <figcaption>Bad To The Bone R$99,90</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <!--Terceiro Produto-->
+                    <li>
+                        <a href="produto.html">
+                            <figure>
+                                <img src="img/produtos/miniatura3.png">
+                                <figcaption>Green Sweater Xarbi R$224,24</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <!--Quarto Produto-->
+                    <li>
+                        <a href="produto.html">
+                            <figure>
+                                <img src="img/produtos/miniatura4.png">
+                                <figcaption>Jaqueta Inverno Vinho R$250,00</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <!--Quinto Produto-->
+                    <li>
+                        <a href="produtos.html">
+                            <figure>
+                                <img src="img/produtos/miniatura5.png">
+                                <figcaption>Blusa Fitness Azul R$50,00</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <!--Sexto Produto-->
+                    <li>
+                        <a href="produtos.html">
+                            <figure>
+                                <img src="img/produtos/miniatura6.png">
+                                <figcaption>Blusinha Rosa R$40,00</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                </ol>
+            </section>
+            <section class="painel mais-vendidos">
+                <h2>Mais Vendidos</h2>
+                <ol>
+                    <!--Produto Mais Vendido 1-->
+                    <li>
+                        <a href="produtos.html">
+                            <figure>
+                                <img src="img/produtos/miniatura10.png">
+                                <figcaption>Blusa Longa R$100,00</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <!--Produto Mais Vendido 2-->
+                    <li>
+                        <a href="produtos.html">
+                            <figure>
+                                <img src="img/produtos/miniatura11.png">
+                                <figcaption>Shortinho Tanga Frouxa R$90,00</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <!--Produto Mais Vendido 3-->
+                    <li>
+                        <a href="produtos.html">
+                            <figure>
+                                <img src="img/produtos/miniatura12.png">
+                                <figcaption>Camiseta Chique R$120,00</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <!--Produto Mais Vendido 4-->
+                    <li>
+                        <a href="produtos.html">
+                            <figure>
+                                <img src="img/produtos/miniatura13.png">
+                                <figcaption>Camiseta Chique no Ultimatum R$80,00</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <!--Produto Mais Vendido 5-->
+                    <li>
+                        <a href="produtos.html">
+                            <figure>
+                                <img src="img/produtos/miniatura14.png">
+                                <figcaption>Queima De estoque!!! R$59,99</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <!--Produto Mais Vendido 6-->
+                    <li>
+                        <a href="produtos.html">
+                            <figure>
+                                <img src="img/produtos/miniatura1.png">
+                                <figcaption>Você merece essa peça R$100,00</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                </ol>
+            </section>
+        </div>
+        <!---------------------------------------------------------------------FOOTER-------------------------------------------------------------- -->
+        <footer>
+            <div class="container">
+                <img src="img/logo-rodape.png" alt="Logo Mirror Fashion">
+
+                <ul class="social">
+                    <li><a href="http://facebook.com/mirrorfashion">Facebook</a></li>
+                    <li><a href="http://twitter.com/mirrorfashion">Twitter</a></li>
+                    <li><a href="http://plus.google.com/mirrorfashion">Google</a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
